@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #f0f0f0;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 1.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #3a6cf4;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #3a6cf4;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+
+.navigation a:hover {
+  color: #601cfc;
+}
+
+section {
+  padding: 100px 200px;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #121A64;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+.image {
+  display: inline-block;
+  width: 40%;
+  max-width: 450px;
+  height: auto;
+}
+
+.secondContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.main h2 {
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.main h2 span {
+  display: inline-block;
+  margin-top: 10px;
+  color: #3F4CD7;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.main h3 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.mainBtn {
+  color: white;
+  text-decoration: none;
+  background: #333EB2;
+  border-radius: 10px;
+  padding: .9375em 2.1875em;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.mainBtn:hover {
+  transform: scale(1.1);
+  background-color: #1224E6;
+}
+
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-icons a,
+.social-icons a img {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: #3F4CD7;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  width: 21.25em;
+  max-width: 100%;
+  box-shadow: 0 5px 25px #757171;
+  border-radius: 5px;
+  padding: 25px;
+  margin: 10px;
+  transition: transform 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon img {
+  max-width: 100%;
+  height: auto;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h3 {
+  color: #3a6cf4;
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.projects {
+  background-color: #000016;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects .content {
+  margin-top: 30px;
+}
+
+.project-card {
+  background-color: #fff;
+  border: 1px solid #fff;
+  min-height: 14em;
+  width: 23em;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-img {
+  overflow: hidden;
+}
+
+.project-img img {
+  width: 100%;
+  display: block;
+  transition: opacity 0.4s ease;
+}
+
+.project-card:hover .project-img img {
+  opacity: 0.8;
+}
+
+.project-info {
+  padding: 1em;
+}
+
+.project-category {
+  font-size: 0.8em;
+  color: #000;
+  font-weight: bold;
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 1em;
+  flex-wrap: wrap;
+}
+
+.More-details {
+  text-decoration: none;
+  color: #3a6cf4;
+}
+
+.More-details:hover {
+  color: #601cfc;
+}
+
+.contact .info h3 {
+  color: #000;
+  font-weight: 800;
+}
+
+.contact .info p {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #3a6cf4;
+  color: white;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-title {
+  font-size: 2.3em;
+  font-weight: 600;
+}
+
+.footer-title span {
+  color: #000;
+}
+
+/* ===== Responsive breakpoints ===== */
+
+@media (max-width: 1023px) {
+  header {
+    padding: 12px 20px;
+  }
+  .navigation a {
+    padding-left: 10px;
+  }
+  .title {
+    font-size: 1.8em;
+  }
+  section {
+    padding: 80px 20px;
+  }
+  .main h2 {
+    font-size: 1.1em;
+  }
+  .main h3 {
+    font-size: 1.6em;
+  }
+  .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .secondContainer {
+    max-width: 55%;
+  }
+  .image {
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+  }
+  .logo {
+    font-size: 1.4em;
+  }
+  .navigation {
+    justify-content: flex-end;
+  }
+  .navigation a {
+    padding-left: 12px;
+    font-size: 0.9em;
+  }
+  .main {
+    padding-top: 90px;
+  }
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card,
+  .project-card {
+    width: 100%;
+    max-width: 22em;
+  }
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 641px) {
+  body {
+    font-size: 14px;
+  }
+  .main h2 {
+    font-size: 1em;
+  }
+  .main h3 {
+    font-size: 1.4em;
+  }
+  .image {
+    width: 42%;
+  }
+  .secondContainer {
+    max-width: 55%;
+  }
+  .mainBtn {
+    padding: .8em 1.8em;
+    font-size: 1em;
+  }
+  .social-icons a,
+  .social-icons a img {
+    margin-right: 10px;
+    width: 32px;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: 12px;
+  }
+  section {
+    padding: 60px 15px;
+  }
+  .footer-title {
+    font-size: 1.6em;
+  }
+}
